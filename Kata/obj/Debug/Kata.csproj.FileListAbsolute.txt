@@ -1,0 +1,23 @@
+c:\users\dpatterson2\documents\visual studio 2017\Projects\RomanNumeralKata\Kata\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+c:\users\dpatterson2\documents\visual studio 2017\Projects\RomanNumeralKata\Kata\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+c:\users\dpatterson2\documents\visual studio 2017\Projects\RomanNumeralKata\Kata\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+c:\users\dpatterson2\documents\visual studio 2017\Projects\RomanNumeralKata\Kata\bin\Debug\Kata.dll
+c:\users\dpatterson2\documents\visual studio 2017\Projects\RomanNumeralKata\Kata\bin\Debug\Kata.pdb
+c:\users\dpatterson2\documents\visual studio 2017\Projects\RomanNumeralKata\Kata\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+c:\users\dpatterson2\documents\visual studio 2017\Projects\RomanNumeralKata\Kata\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+c:\users\dpatterson2\documents\visual studio 2017\Projects\RomanNumeralKata\Kata\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+c:\users\dpatterson2\documents\visual studio 2017\Projects\RomanNumeralKata\Kata\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+c:\users\dpatterson2\documents\visual studio 2017\Projects\RomanNumeralKata\Kata\obj\Debug\Kata.dll
+c:\users\dpatterson2\documents\visual studio 2017\Projects\RomanNumeralKata\Kata\obj\Debug\Kata.pdb
+C:\github\Kata-RomanNumeral\Kata\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\github\Kata-RomanNumeral\Kata\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\github\Kata-RomanNumeral\Kata\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\github\Kata-RomanNumeral\Kata\bin\Debug\Kata.dll
+C:\github\Kata-RomanNumeral\Kata\bin\Debug\Kata.pdb
+C:\github\Kata-RomanNumeral\Kata\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\github\Kata-RomanNumeral\Kata\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\github\Kata-RomanNumeral\Kata\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\github\Kata-RomanNumeral\Kata\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\github\Kata-RomanNumeral\Kata\obj\Debug\Kata.csprojResolveAssemblyReference.cache
+C:\github\Kata-RomanNumeral\Kata\obj\Debug\Kata.dll
+C:\github\Kata-RomanNumeral\Kata\obj\Debug\Kata.pdb
