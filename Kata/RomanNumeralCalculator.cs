@@ -11,9 +11,9 @@ namespace Kata
         public RomanNumeralCalculator()
         { }
 
-        public string Add(string num1, string num2)
+        public string Add(string numeral1, string numeral2)
         {
-            string collaposedNumeral = this.Collapse(num1) + this.Collapse(num2);
+            string collaposedNumeral = this.Collapse(numeral1) + this.Collapse(numeral2);
             string result = this.Expand(collaposedNumeral);
 
             return result;       
@@ -45,18 +45,6 @@ namespace Kata
             expandedNumber = expandedNumber.Replace("IIII", "IV");
 
             return expandedNumber;
-        }
-
-
-        private bool CheckInputValues(string actual1, string actual2, string expected1, string expected2)
-        {
-            if((actual1 == expected1 && actual2 == expected2) ||
-                (actual1 == expected2 && actual2 == expected1))
-            {
-                return true;
-            }
-
-            return false;
         }
     }
 }
