@@ -13,21 +13,10 @@ namespace Kata
 
         public string Add(string num1, string num2)
         {
-            string result;
+            string collaposedNumeral = this.Collapse(num1) + this.Collapse(num2);
+            string result = this.Expand(collaposedNumeral);
 
-            if (this.CheckInputValues(num1, num2, "I", "III") ||
-                    this.CheckInputValues(num1, num2, "IV", "I") ||
-                    this.CheckInputValues(num1, num2, "V", "II"))
-            {
-                string collaposedNumeral = this.Collapse(num1) + this.Collapse(num2);
-                result = this.Expand(collaposedNumeral);                
-            }
-            else
-            {
-                result = string.Concat(num1, num2);
-            }
-
-            return result;
+            return result;       
         }
 
         private string Collapse(string romanNumeral)
