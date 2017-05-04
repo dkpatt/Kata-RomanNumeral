@@ -23,6 +23,10 @@ namespace Kata
             {
                 result = "V";
             }
+            else if(this.CheckInputValues(num1, num2, "V", "II"))
+            {
+                result = "VII";
+            }
             else
             {
                 result = string.Concat(num1, num2);
