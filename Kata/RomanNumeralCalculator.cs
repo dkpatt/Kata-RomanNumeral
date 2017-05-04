@@ -15,20 +15,12 @@ namespace Kata
         {
             string result;
 
-            if (this.CheckInputValues(num1, num2, "I", "III"))
-            {
-                result = "IV";
-            }
-            else if(this.CheckInputValues(num1, num2, "IV", "I"))
-            {
-                result = "V";
-            }
-            else if(this.CheckInputValues(num1, num2, "V", "II"))
+            if (this.CheckInputValues(num1, num2, "I", "III") ||
+                    this.CheckInputValues(num1, num2, "IV", "I") ||
+                    this.CheckInputValues(num1, num2, "V", "II"))
             {
                 string collaposedNumeral = this.Collapse(num1) + this.Collapse(num2);
-                result = this.Expand(collaposedNumeral);
-
-                //result = "VII";
+                result = this.Expand(collaposedNumeral);                
             }
             else
             {
