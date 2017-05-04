@@ -25,7 +25,10 @@ namespace Kata
             }
             else if(this.CheckInputValues(num1, num2, "V", "II"))
             {
-                result = "VII";
+                string collaposedNumeral = this.Collapse(num1) + this.Collapse(num2);
+                result = this.Expand(collaposedNumeral);
+
+                //result = "VII";
             }
             else
             {
@@ -34,6 +37,35 @@ namespace Kata
 
             return result;
         }
+
+        private string Collapse(string romanNumeral)
+        {
+            string collapsedNumber;
+
+            if(romanNumeral == "IV")
+            {
+                collapsedNumber = "IIII";
+            }
+            else if(romanNumeral.Contains("V"))
+            {
+                collapsedNumber = "IIIII";
+            }
+            else
+            {
+                collapsedNumber = romanNumeral;
+            }
+
+            return collapsedNumber;
+        }
+
+        private string Expand(string collapsedNumeral)
+        {
+            string expandedNumber = collapsedNumeral.Replace("IIIII", "V");
+            expandedNumber = expandedNumber.Replace("IIII", "IV");
+
+            return expandedNumber;
+        }
+
 
         private bool CheckInputValues(string actual1, string actual2, string expected1, string expected2)
         {
